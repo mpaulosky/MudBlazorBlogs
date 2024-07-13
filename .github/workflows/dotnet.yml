@@ -39,10 +39,6 @@ jobs:
         with:
           path: ~/.nuget/packages
           key: ${{ runner.os }}-${{ env.cache-name }}
-
-      - name: Workload install
-        run: dotnet workload restore
-           working-directory:./src
     
       - name: Restore dependencies
         run: dotnet restore
