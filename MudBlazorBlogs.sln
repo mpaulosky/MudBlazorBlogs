@@ -10,9 +10,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Solution Items", "1. Solution Items", "{951A9F25-53B0-4D8B-ACEB-5CCF96E41E8A}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
 		.gitignore = .gitignore
-		README.md = README.md
+		identifier.sqlite = identifier.sqlite
 		LICENSE.md = LICENSE.md
+		README.md = README.md
+		runsettings.xml = runsettings.xml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. SRC", "2. SRC", "{1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}"
@@ -23,11 +26,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		src\global.json = src\global.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blogs.Service.Postgres", "src\Blog.Service.Postgres\Blogs.Service.Postgres.csproj", "{86FC9296-6D43-443F-9492-7331A9DB1120}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs.Service.Postgres", "src\Blog.Service.Postgres\Blogs.Service.Postgres.csproj", "{86FC9296-6D43-443F-9492-7331A9DB1120}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blogs.Service.MongoDb", "src\Blog.Service.MongoDb\Blogs.Service.MongoDb.csproj", "{F3421E19-8967-4C66-9401-CA46173AF025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs.Service.MongoDb", "src\Blog.Service.MongoDb\Blogs.Service.MongoDb.csproj", "{F3421E19-8967-4C66-9401-CA46173AF025}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blogs.Shared", "src\Blogs.Shared\Blogs.Shared.csproj", "{03281259-B376-4305-8B0B-F41A80440B90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs.Shared", "src\Blogs.Shared\Blogs.Shared.csproj", "{03281259-B376-4305-8B0B-F41A80440B90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
