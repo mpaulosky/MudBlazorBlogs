@@ -10,9 +10,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Solution Items", "1. Solution Items", "{951A9F25-53B0-4D8B-ACEB-5CCF96E41E8A}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
 		.gitignore = .gitignore
-		README.md = README.md
+		identifier.sqlite = identifier.sqlite
 		LICENSE.md = LICENSE.md
+		README.md = README.md
+		runsettings.xml = runsettings.xml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. SRC", "2. SRC", "{1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}"
@@ -22,6 +25,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		src\.editorconfig = src\.editorconfig
 		src\global.json = src\global.json
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs.Service.Postgres", "src\Blog.Service.Postgres\Blogs.Service.Postgres.csproj", "{86FC9296-6D43-443F-9492-7331A9DB1120}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs.Service.MongoDb", "src\Blog.Service.MongoDb\Blogs.Service.MongoDb.csproj", "{F3421E19-8967-4C66-9401-CA46173AF025}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs.Shared", "src\Blogs.Shared\Blogs.Shared.csproj", "{03281259-B376-4305-8B0B-F41A80440B90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +46,18 @@ Global
 		{B9AE28DC-D547-4378-AE37-0DBEB85A22E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9AE28DC-D547-4378-AE37-0DBEB85A22E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9AE28DC-D547-4378-AE37-0DBEB85A22E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86FC9296-6D43-443F-9492-7331A9DB1120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86FC9296-6D43-443F-9492-7331A9DB1120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86FC9296-6D43-443F-9492-7331A9DB1120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86FC9296-6D43-443F-9492-7331A9DB1120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3421E19-8967-4C66-9401-CA46173AF025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3421E19-8967-4C66-9401-CA46173AF025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3421E19-8967-4C66-9401-CA46173AF025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3421E19-8967-4C66-9401-CA46173AF025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03281259-B376-4305-8B0B-F41A80440B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03281259-B376-4305-8B0B-F41A80440B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03281259-B376-4305-8B0B-F41A80440B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03281259-B376-4305-8B0B-F41A80440B90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +65,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3BD27B87-0761-4686-A062-8238A9C87529} = {1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}
 		{B9AE28DC-D547-4378-AE37-0DBEB85A22E6} = {1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}
+		{86FC9296-6D43-443F-9492-7331A9DB1120} = {1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}
+		{F3421E19-8967-4C66-9401-CA46173AF025} = {1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}
+		{03281259-B376-4305-8B0B-F41A80440B90} = {1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC5936F2-084C-425A-B7B1-C7DB74D005A1}
