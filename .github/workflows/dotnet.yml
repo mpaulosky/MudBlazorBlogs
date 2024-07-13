@@ -20,10 +20,12 @@ jobs:
     defaults:
       run:
         working-directory: ./src
+        
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
@@ -40,6 +42,7 @@ jobs:
 
       - name: Workload install
         run: dotnet workload restore
+           working-directory:./src
     
       - name: Restore dependencies
         run: dotnet restore
