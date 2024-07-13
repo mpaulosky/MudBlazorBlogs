@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs", "src\Blogs\Blogs.csproj", "{3BD27B87-0761-4686-A062-8238A9C87529}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs.Client", "src\Blogs.Client\Blogs.Client.csproj", "{B9AE28DC-D547-4378-AE37-0DBEB85A22E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Solution Items", "1. Solution Items", "{951A9F25-53B0-4D8B-ACEB-5CCF96E41E8A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+		LICENSE.md = LICENSE.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. SRC", "2. SRC", "{1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CDD67BD8-4EBE-46C7-993F-5432916F7667}"
+	ProjectSection(SolutionItems) = preProject
+		src\.editorconfig = src\.editorconfig
+		src\global.json = src\global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BD27B87-0761-4686-A062-8238A9C87529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD27B87-0761-4686-A062-8238A9C87529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD27B87-0761-4686-A062-8238A9C87529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD27B87-0761-4686-A062-8238A9C87529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AE28DC-D547-4378-AE37-0DBEB85A22E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AE28DC-D547-4378-AE37-0DBEB85A22E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AE28DC-D547-4378-AE37-0DBEB85A22E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AE28DC-D547-4378-AE37-0DBEB85A22E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BD27B87-0761-4686-A062-8238A9C87529} = {1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}
+		{B9AE28DC-D547-4378-AE37-0DBEB85A22E6} = {1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC5936F2-084C-425A-B7B1-C7DB74D005A1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>aspnet-Blogs-98520783-40d5-45d7-85c9-4bd874ff85d9</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Update="Data\app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<ProjectReference Include="..\Blogs.Client\Blogs.Client.csproj" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.*" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.*" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.*" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.*" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.*" />
+		<PackageReference Include="Extensions.MudBlazor.StaticInput" Version="2.*" />
+	</ItemGroup>
+
+</Project>
