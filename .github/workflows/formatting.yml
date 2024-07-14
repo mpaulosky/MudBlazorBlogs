@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   code-formatting:
-    if: github.ref != 'refs/heads/main' && github.repository != 'mpaulosky/MudBlazorBlogs'
+    # if: github.ref != 'refs/heads/main' && github.repository != 'mpaulosky/MudBlazorBlogs'
     runs-on: ubuntu-latest
 
     steps:
