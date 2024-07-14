@@ -5,6 +5,8 @@ on:
       - src/**.cs
       - src/**.js
       - src/**.css
+  workflow_dispatch:
+  
 permissions:
   contents: write
 
