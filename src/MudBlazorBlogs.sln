@@ -7,23 +7,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs", "Blogs\Blogs.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs.Client", "Blogs.Client\Blogs.Client.csproj", "{B9AE28DC-D547-4378-AE37-0DBEB85A22E6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Solution Items", "1. Solution Items", "{951A9F25-53B0-4D8B-ACEB-5CCF96E41E8A}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-		.gitattributes = .gitattributes
-		.gitignore = .gitignore
-		identifier.sqlite = identifier.sqlite
-		LICENSE.md = LICENSE.md
-		README.md = README.md
-		runsettings.xml = runsettings.xml
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. SRC", "2. SRC", "{1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CDD67BD8-4EBE-46C7-993F-5432916F7667}"
 	ProjectSection(SolutionItems) = preProject
 		src\.editorconfig = src\.editorconfig
-		src\global.json = src\global.json
+		.editorconfig = .editorconfig
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		global.json = global.json
+		..\LICENSE.md = ..\LICENSE.md
+		..\README.md = ..\README.md
+		runsettings.xml = runsettings.xml
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs.Service.MongoDb", "Blogs.Service.MongoDb\Blogs.Service.MongoDb.csproj", "{5BD0298B-5016-4DFE-9F0B-BE274FD4E3BF}"
