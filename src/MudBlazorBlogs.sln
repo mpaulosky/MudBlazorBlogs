@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs.Client", "Blogs.Clien
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. SRC", "2. SRC", "{1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CDD67BD8-4EBE-46C7-993F-5432916F7667}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Solution Items", "1. Solution Items", "{CDD67BD8-4EBE-46C7-993F-5432916F7667}"
 	ProjectSection(SolutionItems) = preProject
 		src\.editorconfig = src\.editorconfig
 		.editorconfig = .editorconfig
@@ -26,6 +26,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs.Service.Postgres", "Blogs.Service.Postgres\Blogs.Service.Postgres.csproj", "{8E6422AC-8A50-409A-888E-05D0818CFD17}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogs.Shared", "Blogs.Shared\Blogs.Shared.csproj", "{E5B3FB71-92D7-4681-A932-8376485FFD35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blogs.Tests.Bunit", "tests\Blogs.Tests.Bunit\Blogs.Tests.Bunit.csproj", "{8B5D805B-FF28-4D10-B17C-73195D21D7D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Tests", "3. Tests", "{C15B6529-AFB6-4B11-9761-A00A66A329B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,10 @@ Global
 		{E5B3FB71-92D7-4681-A932-8376485FFD35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5B3FB71-92D7-4681-A932-8376485FFD35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5B3FB71-92D7-4681-A932-8376485FFD35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5D805B-FF28-4D10-B17C-73195D21D7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5D805B-FF28-4D10-B17C-73195D21D7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5D805B-FF28-4D10-B17C-73195D21D7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5D805B-FF28-4D10-B17C-73195D21D7D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +71,7 @@ Global
 		{5BD0298B-5016-4DFE-9F0B-BE274FD4E3BF} = {1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}
 		{8E6422AC-8A50-409A-888E-05D0818CFD17} = {1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}
 		{E5B3FB71-92D7-4681-A932-8376485FFD35} = {1A0DECE7-7B44-4301-BDBC-8FE5B6376E06}
+		{8B5D805B-FF28-4D10-B17C-73195D21D7D3} = {C15B6529-AFB6-4B11-9761-A00A66A329B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC5936F2-084C-425A-B7B1-C7DB74D005A1}
